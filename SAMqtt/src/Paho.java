@@ -65,7 +65,7 @@ public class Paho {
 				message.setRetained(true); // try with true
 				message.setQos(1);
 
-				client.publish("home/data", message);
+				client.publish("hello-mqtt", message);
 
 				client.disconnect();
 			}
