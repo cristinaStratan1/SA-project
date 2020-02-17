@@ -34,3 +34,5 @@ Secondly, simulating multiple publishers by setting a message payload for each M
 
 				client.disconnect();
 			}
+
+Import this code by clonning the git link and run in any java IDE. Once the code is running, the messages are going to be published on "hello-mqqt" topic and you can view the incoming data by creating a subscriber.
